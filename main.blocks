@@ -1,0 +1,18 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="B:q!B*_}0%?9*`-}]}DV">mySprite</variable><variable type="KIND_SpriteKind" id="^QB6`Pn;W^Rs#^G97ZLB">Player</variable><variable type="KIND_SpriteKind" id=",8rq$g_fe)-m(t/Y8DY@">Projectile</variable><variable type="KIND_SpriteKind" id="]@E)9uXzd?xE5)@QB=$~">Food</variable><variable type="KIND_SpriteKind" id="AiuQ%`U!e(NJZATeR@Z=">Enemy</variable></variables><block type="pxt-on-start" id=":4J_c`,D.OHeC-:H.T)l" x="0" y="0"><statement name="HANDLER"><block type="variables_set" id="4(n(-^z.GZ3ku0d:xCnO"><field name="VAR" id="B:q!B*_}0%?9*`-}]}DV">mySprite</field><value name="VALUE"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="la9jwM{.$Bbx-^82_;s2"><value name="img"><shadow type="screen_image_picker" id="3kp)i[LPkyWVyvupqHxd"><field name="img">img`
+. . . . . . . . . . . . . . . . 
+. . . . . . 5 5 5 5 . . . . . . 
+. . . . . . 5 5 5 5 . . . . . . 
+. . . . . . . 5 . . . . . . . . 
+. 9 9 . . . 5 5 5 5 . . . 9 9 . 
+. 9 9 9 . . 5 5 5 5 . . 9 9 9 . 
+. 9 9 9 9 . 5 5 5 5 . 9 9 9 9 . 
+. 9 9 9 9 9 5 5 5 5 9 9 9 9 9 . 
+. . . . . . 5 5 5 5 . . . . . . 
+. 9 9 9 9 9 5 5 5 5 9 9 9 9 9 . 
+. 9 9 9 9 . 5 5 5 5 9 . . . . . 
+. 9 9 9 . . 5 5 5 5 . . . . . . 
+. 9 9 . . . 5 5 5 5 . . . . . . 
+. . . . . . 5 5 5 5 . . . . . . 
+. . . . . . 5 5 5 5 . . . . . . 
+. . . . . . . 5 5 . . . . . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"3kp)i[LPkyWVyvupqHxd"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="0WdCZoI$CK|$6]QTqwpT"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="game_control_sprite" id="^de_VR/zXc,Wk6lPJGP1"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="true"></mutation><value name="sprite"><block type="variables_get" id="Xo-CK=r~1K|()vaegdL."><field name="VAR" id="B:q!B*_}0%?9*`-}]}DV">mySprite</field></block></value><value name="vx"><shadow type="spriteSpeedPicker" id="T;5CeEGzV{ry]:`dQb?n"><field name="speed">100</field></shadow></value><value name="vy"><shadow type="spriteSpeedPicker" id="Gq!2%ph8c%FDnurU9t{I"><field name="speed">100</field></shadow></value></block></next></block></statement></block><block type="controls_if" id="4Vo/~vB*;khKfb9gJ!8t" disabled="true" x="550" y="50"><mutation else="1"></mutation><value name="IF0"><shadow type="logic_boolean" id="Vxv*o$/?~219b}:{`qvw" disabled="true"><field name="BOOL">TRUE</field></shadow></value></block></xml>
